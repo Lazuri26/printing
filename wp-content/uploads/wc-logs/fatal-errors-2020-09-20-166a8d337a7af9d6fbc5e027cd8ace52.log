@@ -1,0 +1,75 @@
+2020-09-20T12:48:20+00:00 CRITICAL Uncaught Error: Class 'WP2Static\Controller' not found in C:\xampp\htdocs\wordpress3\wp-content\plugins\wp2static-master\wp2static.php:24
+Stack trace:
+#0 C:\xampp\htdocs\wordpress3\wp-admin\includes\plugin.php(659): include_once()
+#1 C:\xampp\htdocs\wordpress3\wp-admin\plugins.php(44): activate_plugin('wp2static-maste...', 'http://localhos...', false)
+#2 {main}
+  thrown in C:\xampp\htdocs\wordpress3\wp-content\plugins\wp2static-master\wp2static.php on line 24
+
+2020-09-20T12:48:34+00:00 CRITICAL Uncaught Error: Class 'WP2Static\Controller' not found in C:\xampp\htdocs\wordpress3\wp-content\plugins\wp2static-master\wp2static.php:24
+Stack trace:
+#0 C:\xampp\htdocs\wordpress3\wp-admin\includes\plugin.php(2255): include()
+#1 C:\xampp\htdocs\wordpress3\wp-admin\plugins.php(177): plugin_sandbox_scrape('wp2static-maste...')
+#2 {main}
+  thrown in C:\xampp\htdocs\wordpress3\wp-content\plugins\wp2static-master\wp2static.php on line 24
+
+2020-09-20T12:48:35+00:00 CRITICAL Uncaught Error: Class 'WP2Static\Controller' not found in C:\xampp\htdocs\wordpress3\wp-content\plugins\wp2static-master\wp2static.php:24
+Stack trace:
+#0 C:\xampp\htdocs\wordpress3\wp-admin\includes\plugin.php(2255): include()
+#1 C:\xampp\htdocs\wordpress3\wp-admin\plugins.php(177): plugin_sandbox_scrape('wp2static-maste...')
+#2 {main}
+  thrown in C:\xampp\htdocs\wordpress3\wp-content\plugins\wp2static-master\wp2static.php on line 24
+
+2020-09-20T14:40:01+00:00 CRITICAL Uncaught Error: Class 'WP2Static\Controller' not found in C:\xampp\htdocs\wordpress3\wp-content\plugins\wp2static-master\wp2static.php:24
+Stack trace:
+#0 C:\xampp\htdocs\wordpress3\wp-admin\includes\plugin.php(659): include_once()
+#1 C:\xampp\htdocs\wordpress3\wp-admin\plugins.php(44): activate_plugin('wp2static-maste...', 'http://localhos...', false)
+#2 {main}
+  thrown in C:\xampp\htdocs\wordpress3\wp-content\plugins\wp2static-master\wp2static.php on line 24
+
+2020-09-20T14:40:04+00:00 CRITICAL Uncaught Error: Class 'WP2Static\Controller' not found in C:\xampp\htdocs\wordpress3\wp-content\plugins\wp2static-master\wp2static.php:24
+Stack trace:
+#0 C:\xampp\htdocs\wordpress3\wp-admin\includes\plugin.php(2255): include()
+#1 C:\xampp\htdocs\wordpress3\wp-admin\plugins.php(177): plugin_sandbox_scrape('wp2static-maste...')
+#2 {main}
+  thrown in C:\xampp\htdocs\wordpress3\wp-content\plugins\wp2static-master\wp2static.php on line 24
+
+2020-09-20T14:40:04+00:00 CRITICAL Uncaught Error: Class 'WP2Static\Controller' not found in C:\xampp\htdocs\wordpress3\wp-content\plugins\wp2static-master\wp2static.php:24
+Stack trace:
+#0 C:\xampp\htdocs\wordpress3\wp-admin\includes\plugin.php(2255): include()
+#1 C:\xampp\htdocs\wordpress3\wp-admin\plugins.php(177): plugin_sandbox_scrape('wp2static-maste...')
+#2 {main}
+  thrown in C:\xampp\htdocs\wordpress3\wp-content\plugins\wp2static-master\wp2static.php on line 24
+
+2020-09-20T14:41:14+00:00 CRITICAL Uncaught Error: Class 'StaticHTMLOutput\Controller' not found in C:\xampp\htdocs\wordpress3\wp-content\plugins\static-html-output-master\static-html-output-plugin.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress3\wp-admin\includes\plugin.php(659): include_once()
+#1 C:\xampp\htdocs\wordpress3\wp-admin\plugins.php(44): activate_plugin('static-html-out...', 'http://localhos...', false)
+#2 {main}
+  thrown in C:\xampp\htdocs\wordpress3\wp-content\plugins\static-html-output-master\static-html-output-plugin.php on line 26
+
+2020-09-20T14:41:15+00:00 CRITICAL Uncaught Error: Class 'StaticHTMLOutput\Controller' not found in C:\xampp\htdocs\wordpress3\wp-content\plugins\static-html-output-master\static-html-output-plugin.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress3\wp-admin\includes\plugin.php(2255): include()
+#1 C:\xampp\htdocs\wordpress3\wp-admin\plugins.php(177): plugin_sandbox_scrape('static-html-out...')
+#2 {main}
+  thrown in C:\xampp\htdocs\wordpress3\wp-content\plugins\static-html-output-master\static-html-output-plugin.php on line 26
+
+2020-09-20T14:41:15+00:00 CRITICAL Uncaught Error: Class 'StaticHTMLOutput\Controller' not found in C:\xampp\htdocs\wordpress3\wp-content\plugins\static-html-output-master\static-html-output-plugin.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress3\wp-admin\includes\plugin.php(2255): include()
+#1 C:\xampp\htdocs\wordpress3\wp-admin\plugins.php(177): plugin_sandbox_scrape('static-html-out...')
+#2 {main}
+  thrown in C:\xampp\htdocs\wordpress3\wp-content\plugins\static-html-output-master\static-html-output-plugin.php on line 26
+
+2020-09-20T15:29:36+00:00 CRITICAL Uncaught StaticHTMLOutput\StaticHTMLOutputException: StaticHTMLOutput\StaticHTMLOutputException: GitHub API bad response status in C:\xampp\htdocs\wordpress3\wp-content\plugins\static-html-output-plugin\src\GitHub.php:181
+Stack trace:
+#0 C:\xampp\htdocs\wordpress3\wp-content\plugins\static-html-output-plugin\static-html-output-plugin.php(242): StaticHTMLOutput\GitHub->test_upload()
+#1 C:\xampp\htdocs\wordpress3\wp-includes\class-wp-hook.php(287): static_html_output_ajax('')
+#2 C:\xampp\htdocs\wordpress3\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress3\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress3\wp-admin\admin-ajax.php(175): do_action('wp_ajax_wp_stat...')
+#5 {main} in C:\xampp\htdocs\wordpress3\wp-content\plugins\static-html-output-plugin\src\GitHub.php:186
+Stack trace:
+#0 C:\xampp\htdocs\wordpress3\wp-content\plugins\static-html-output-plugin\static-html-output-plugin.php(242): StaticHTMLOutput\GitHub->test_upload()
+# in C:\xampp\htdocs\wordpress3\wp-content\plugins\static-html-output-plugin\src\GitHub.php on line 186
+
